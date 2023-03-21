@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Avatar</th>
+          <th>NickName</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let ranking of rankings">
+          <td><img src="{{ ranking.avatar }}"></td>
+          <td>{{ ranking.personaname }}</td>
+          <td>{{ ranking.score }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
