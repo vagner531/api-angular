@@ -1,9 +1,24 @@
-table{
-  color: #fff;
-  tr{
-    color: #fff;
-  }
-  td{
-    color: #fff;
+.container {
+
+
+  .row {
+    display: flex;
+    justify-content: center;
+  
+    table {
+      max-width: 800px;
+      margin-top: 2rem;
+      
+      color: #fff;
+      tr {
+        color: #fff;
+      
+      }
+      td {
+        color: #fff;
+      }
+    }
+    
   }
 }
+
